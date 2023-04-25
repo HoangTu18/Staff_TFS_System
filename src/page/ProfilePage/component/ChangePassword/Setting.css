@@ -1,0 +1,17 @@
+.order-page .order-title .order-title-detail {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.order-page .order-title .order-title-detail img {
+  margin-right: 10px;
+}
+
+.order-page .textInput {
+  width: 280px;
+  height: 28px;
+  border: none;
+  font-size: 18px;
+  background-color: transparent;
+}

@@ -1,0 +1,41 @@
+.state {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  font-weight: 700;
+  &__time {
+    font-size: 10px;
+    height: 13px;
+  }
+  &__title {
+    font-size: 12px;
+  }
+
+  &__icon {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 5px 0;
+
+    img {
+      width: 16px;
+    }
+    &.success {
+      background-color: #198754;
+    }
+
+    &.on-progress {
+      background-color: #ef9800;
+    }
+
+    &.not-yet {
+      background-color: #d9d9d9;
+    }
+  }
+}

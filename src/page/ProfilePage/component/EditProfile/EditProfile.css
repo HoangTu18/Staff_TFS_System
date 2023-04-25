@@ -1,0 +1,8 @@
+.order-page .order-title .order-title-detail {
+  display: flex;
+  align-items: center;
+}
+
+.order-page .order-title .order-title-detail img {
+  margin-right: 10px;
+}

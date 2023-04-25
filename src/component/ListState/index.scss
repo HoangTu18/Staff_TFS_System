@@ -1,0 +1,17 @@
+.state-list {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  //   justify-content: space-around;
+
+  &::before {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: #a4a2a2;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+  }
+}

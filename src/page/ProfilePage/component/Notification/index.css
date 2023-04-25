@@ -1,0 +1,22 @@
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d83a3a;
+  margin-top: 10px;
+}
+
+.noti-order {
+  margin-top: 15px;
+}
+
+.noti-order-item {
+  background: wheat;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.noti-order-item p {
+  margin-left: 5px;
+  margin-top: 3px;
+}
